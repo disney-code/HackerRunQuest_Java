@@ -18,7 +18,7 @@ public class bruteForceSumKOrLess {
 	}
 
 	public static void main(String[] args) {
-		int[] nums={6400,400,200,60,-13,140,1500};
+		int[] nums={-6400, -400, -200, 6000, -13, -140, -1500};
 		int k = 4;
 		int answer=maxSum(nums,  k);
 		System.out.println(answer);
